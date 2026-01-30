@@ -1,7 +1,7 @@
 pkgbase = libplasma-git
 	pkgdesc = Plasma library and runtime components
-	pkgver = 6.0.2_r17313.g8504ae26b
-	pkgrel = 3
+	pkgver = 6.5.91_r17842.g57e568954
+	pkgrel = 1
 	url = https://kde.org/plasma-desktop/
 	arch = x86_64
 	license = LGPL-2.0-or-later
@@ -37,7 +37,7 @@ pkgbase = libplasma-git
 	depends = qt6-declarative
 	depends = qt6-wayland
 	depends = wayland
-	provides = libplasma
+	provides = libplasma=6.5.91
 	conflicts = libplasma
 	conflicts = plasma-framework
 	conflicts = plasma-framework-git
